@@ -1,4 +1,5 @@
-
+// SDK MercadoPago.js
+<script src="https://sdk.mercadopago.com/js/v2"></script>
 <div class="as-search-wrapper" role="main">
     <div class="as-navtuck-wrapper">
         <div class="as-l-fullwidth  as-navtuck" data-events="event52">
@@ -84,7 +85,8 @@
                                     {{ unit }}
                                 </h3>
                             </div>
-                            <button type="submit" class="mercadopago-button" formmethod="post">Pagar</button>
+                            <button id="chekout-button" type="submit" class="mercadopago-button" formmethod="post">Pagar</button>
+                             <div id="wallet_container"></div>
                         </div>
                     </div>
                 </div>
